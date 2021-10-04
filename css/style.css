@@ -1,0 +1,72 @@
+p.white-text{
+    margin-top: 1px;
+    font-size: medium;
+}
+img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+.brand-logo{
+    font-family: 'Mukta', sans-serif;
+}
+#contenedor-articulos {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    font-family: 'Mukta', sans-serif;
+    /*background-color: rgb(194, 198, 198);*/
+}
+.articulo {
+    max-width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(169, 93, 58);
+}
+.precioArticulo{
+    font-family: 'Mukta', sans-serif;
+    color: rgb(189, 93, 2);
+}
+#carrito-icono {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px 15px 30px;
+    transition: all .3.5s;
+}
+#carrito-icono:hover {
+    cursor: pointer;
+    color: white;
+    background-color: rgb(65, 196, 187);
+}
+#carrito-icono:focus {
+    outline: none;
+}
+#carrito-contador{
+    color: black;
+}
+
+.articuloPedido {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.articuloPedido:hover {
+    border-left: 5px solid royalblue;
+}
+.footer-text{
+    font-family: 'Mukta', sans-serif;
+}
+.footer-copyright{
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+}

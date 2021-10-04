@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <!--Importar Google Icon Font-->
+    <link href='https://fonts.googleapis.com/icon?family=Material+Icons' rel='stylesheet'>
+    <!--Importar materialize.min.css-->
+    <link type='text/css' rel='stylesheet' href='css/materialize.min.css'  media='screen,projection'/>
+    <!--Importar Style.css-->
+    <link type='text/css' rel='stylesheet' href='css/style.css'  media='screen,projection'/>
+    <!--Fuentes Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet"> 
+    <!--mobile viewport-->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+
+    <title>Blink Sunglasses</title>
+</head>
+<body style="background-image: url('img/bg.jpg')">
+   
+  <!-- Header -->
+    <header>
+      <nav id='nav' class='yellow darken-3'>
+        <div class='nav-wrapper'>
+          <a href='index.html' class='brand-logo center'>Blink Sunglasses<i class='material-icons'>bubble_chart</i></a>
+
+          <ul class='left hide-on-med-and-down'>
+            <li><i data-target='modal' class='modal-trigger material-icons waves-effect waves-light' id="carrito-icono">shopping_cart</i></li>
+            <li><p id="carrito-contador" class="white-text">0</p></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Fin del header -->
+
+    <!-- Main -->      
+    <main>
+      <div id='contenedor-articulos' class='articulos media-contenedor-arts'>
+        <!-- Acá se muestran los artículos -->
+      </div>
+    
+      <!-- Modal -->
+      <div id='modal' class='modal bottom-sheet'>
+        <div class='modal-content' id='pedido'>
+            <!-- Acá se muestran los artículos en el carrito -->
+        </div>
+        <div class='modal-footer'>
+          <p class="precioProducto">Total: $<span id="carrito-total"></span></p>
+          <button class='btn waves-effect waves-light' id='comprar'>Comprar<i class='material-icons right'>check</i>
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- Fin del Main -->
+
+    <!-- Footer -->
+    <footer class='page-footer blue darken-3'>
+        <div class='container'>
+          <div class='row'>   
+            <div class='col l6 s12'>
+              <h5 class='white-text'>Contacto</h5>
+              <p class='grey-text text-lighten-4'>
+                <ul class="footer-text">
+                  <li><i class=' tiny material-icons'>mail</i> marsico.afo@gmail.com</li>
+                  <li><i class=' tiny material-icons'>phone</i> +54 2227-571475</li>
+                </ul>
+              </p>
+            </div>
+
+            <div class='col l2 offset-l2 s12'>
+                <img src='img/mp.png'>
+            </div>
+          </div>
+        </div>
+
+        <div class='footer-copyright'>
+          <div class='container'>
+            Simulador de plataforma e-commerce © 2021 Copyright 
+          </div>
+        </div>
+    </footer>
+    <!-- Fin del Footer -->
+
+  <!--jQuery-->
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <!--materialize.min.js-->
+  <script type='text/javascript' src='js/materialize.min.js'></script>
+  <!--Articulos-->
+  <script type='application/json' defer src='json/articulos.json'></script>
+  <!--JavaScript-->
+  <script type='text/javascript' defer src='js/script.js'></script>
+  <!--Mercadopago-->
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
+
+</body>
+</html>

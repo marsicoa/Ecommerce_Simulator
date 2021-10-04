@@ -1,0 +1,14 @@
+[
+    {"id":1,"codigo":100,"descripcion":"Black Mirror","precio":9000,"img":"./img/articulo1.jpg"},
+    {"id":2,"codigo":101,"descripcion":"Sunny Crystal","precio":9500,"img":"./img/articulo2.jpg"},
+    {"id":3,"codigo":102,"descripcion":"Brownie","precio":10000,"img":"./img/articulo3.jpg"},
+    {"id":4,"codigo":103,"descripcion":"Lemon Rounded","precio":10500,"img":"./img/articulo4.jpg"},
+    {"id":5,"codigo":104,"descripcion":"White Vintage","precio":11000,"img":"./img/articulo5.jpg"},
+    {"id":6,"codigo":105,"descripcion":"Annie White","precio":11500,"img":"./img/articulo6.jpg"},
+    {"id":7,"codigo":106,"descripcion":"Pink Fury","precio":12000,"img":"./img/articulo7.jpg"},
+    {"id":8,"codigo":107,"descripcion":"Cool Wave","precio":12500,"img":"./img/articulo8.jpg"},
+    {"id":9,"codigo":108,"descripcion":"Pinkish Rounded","precio":13000,"img":"./img/articulo9.jpg"},
+    {"id":10,"codigo":109,"descripcion":"Black Rounded","precio":13050,"img":"./img/articulo10.jpg"},
+    {"id":11,"codigo":110,"descripcion":"Yellow Breeze","precio":14000,"img":"./img/articulo11.jpg"},
+    {"id":12,"codigo":111,"descripcion":"Autumn Chocolate","precio":14500,"img":"./img/articulo12.jpg"}
+]
