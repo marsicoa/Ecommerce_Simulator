@@ -100,7 +100,7 @@ $('#comprar').click( async () => {
     const resp = await fetch('https://api.mercadopago.com/checkout/preferences', {
                     method: 'POST',
                     headers: {
-                        Authorization: 'Bearer TEST-8795248907721922-100113-01d9bec684ae9a5ac7bd56c05a3fa26f-234513991'
+                        Authorization: 'Bearer TEST-cda28882-4764-420c-84a6-208563bb583f'
                     },
                     body: JSON.stringify({
                         items: carritoMP,
